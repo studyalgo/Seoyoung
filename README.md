@@ -14,4 +14,10 @@
 - 깃허브로 코드를 관리하고 서로 피드백 해준다.
 - 모르는 것이 있거나 어려운 점은 메신저로 자유롭게 이야기한다.
 ## 1주차
+- 좌표정렬하기(11651) : [문제](https://www.acmicpc.net/problem/11651),[C++]
+- 구슬굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728)
+- 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)
+- 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)
+- 시리얼번호(1431) : [문제](https://www.acmicpc.net/problem/1431)
 - 
+
