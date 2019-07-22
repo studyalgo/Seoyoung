@@ -15,7 +15,7 @@
 - 모르는 것이 있거나 어려운 점은 메신저로 자유롭게 이야기한다.
 ## 1주차
 ### 개념
-- 정렬
+- [정렬](./docs/1st/Sorting.md)
 ### 문제
 - 좌표정렬하기(11651) : [문제](https://www.acmicpc.net/problem/11651),[C++]
 - 구슬굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728)
