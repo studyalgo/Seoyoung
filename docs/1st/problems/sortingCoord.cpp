@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+void quickSortY(dot* array, int start, int end);
+
 //좌표 위의 점
 struct dot{
     int x;
@@ -16,16 +19,8 @@ int main()
         cin>>array[i].x;
         cin>>array[i].y;
     }
-    //y좌표 기준으로 버블정렬
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n-i; j++){
-            if(array[j].y>array[j+1].y){
-                temp = array[j];
-                array[j] = array[j+1];
-                array[j+1] = temp;
-            }
-        }
-    }
+    //y를 기준으로 퀵정렬
+    quickSortY(array, 0, n);
     //y좌표가 같을 경우 x좌표 기준으로 버블정렬
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n-1; j++){
@@ -42,4 +37,27 @@ int main()
         cout<<array[i].x<<" ";
         cout<<array[i].y<<endl;
     }
+}
+
+void quickSortY(dot* array,int start, int end){
+    if(start>=end) return;
+
+    int i, j, pivot;
+    dot temp;
+    pivot = start;
+    i = start+1;
+    j = end;
+    while(array[i].y<= array[pivot].y){
+        i++;
+    }
+    while(array[j].y >= array[pivot].y && j > start){
+        j--;
+    }
+    if(i>j){
+        temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    quickSortY(array, start, j-1);
+    quickSortY(array, j+1, end);
 }
