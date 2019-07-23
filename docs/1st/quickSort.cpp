@@ -52,8 +52,8 @@ void quickSort(int start, int end)
             array[j] = temp;
         }
         // 왼쪽 정렬
-        quickSort(start, pivot-1);
+        quickSort(start, j-1);
         //오른쪽 정렬
-        quickSort(pivot+1, end);
+        quickSort(j+1, end);
     }
 }
