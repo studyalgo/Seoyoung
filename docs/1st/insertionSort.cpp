@@ -7,7 +7,7 @@ int main()
 
     for(i = 1; i < 10; i++){
         j = i;
-        while(array[j] > array[i]){
+        while(array[j] > array[j+1]){
             temp = array[j];
             array[j] = array[i];
             array[i] = temp;
