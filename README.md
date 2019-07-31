@@ -22,3 +22,12 @@
 - 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)/[C++](./docs/1st/problems/treasure.cpp)
 - 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)/[C++](./docs/1st/problems/sortInside.cpp)
 - 시리얼번호(1431) : [문제](https://www.acmicpc.net/problem/1431)
+## 2주차
+### 개념
+### 문제
+- 수정렬
+- 단어정렬
+- 나이순 정렬
+- 욕심쟁이 판다
+- 좌표정렬하기
+- k번째
