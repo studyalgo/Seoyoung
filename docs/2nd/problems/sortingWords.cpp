@@ -11,6 +11,8 @@
 #include <iostream>
 using namespace std;
 
+bool compare(string a, string b);
+
 int main(){
     int n;
     cin >> n;
@@ -19,6 +21,14 @@ int main(){
     {
         cin >> words[i];
     }
-
+    sort(words, words + n, compare);
+    for(int i = 0; i < n; i++)
+    {
+        cout << words[i] << ' ';
+    }
     return 0;
+}
+
+bool compare(string a, string b){
+    return a.length() < b.length();
 }
