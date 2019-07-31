@@ -15,7 +15,7 @@
 - 모르는 것이 있거나 어려운 점은 메신저로 자유롭게 이야기한다.
 ## 1주차
 ### 개념
-- [정렬](./docs/1st/Sorting.md)
+- [정렬1](./docs/1st/Sorting.md)
 ### 문제
 - 좌표정렬하기(11651) : [문제](https://www.acmicpc.net/problem/11651)/[C++](./docs/1st/problems/sortingCoord.cpp)
 - 구슬굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728)
@@ -24,10 +24,11 @@
 - 시리얼번호(1431) : [문제](https://www.acmicpc.net/problem/1431)
 ## 2주차
 ### 개념
+- [정렬2]
 ### 문제
-- 수정렬
-- 단어정렬
-- 나이순 정렬
-- 욕심쟁이 판다
-- 좌표정렬하기
-- k번째
+- 수정렬(10989) : [문제](https://www.acmicpc.net/problem/10989)
+- 단어정렬(1181) : [문제](https://www.acmicpc.net/problem/1181)
+- 나이순 정렬(10814) : [문제](https://www.acmicpc.net/problem/10814)
+- 욕심쟁이 판다(1937) : [문제](https://www.acmicpc.net/problem/1937)
+- 좌표정렬하기(11650) : [문제](https://www.acmicpc.net/problem/11650)
+- k번째(7469) : [문제](https://www.acmicpc.net/problem/7469)
