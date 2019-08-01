@@ -17,7 +17,7 @@
 ### 개념
 - [정렬1](./docs/1st/Sorting.md)
 ### 문제
-- 좌표정렬하기(11651) : [문제](https://www.acmicpc.net/problem/11651)/[C++](./docs/1st/problems/sortingCoord.cpp)
+- 좌표정렬하기2(11651) : [문제](https://www.acmicpc.net/problem/11651)/[C++](./docs/1st/problems/sortingCoord.cpp)
 - 구슬굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728)
 - 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)/[C++](./docs/1st/problems/treasure.cpp)
 - 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)/[C++](./docs/1st/problems/sortInside.cpp)
