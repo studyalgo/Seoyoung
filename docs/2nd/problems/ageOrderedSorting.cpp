@@ -8,6 +8,7 @@
 #include <vector>
 #include <utility>
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
