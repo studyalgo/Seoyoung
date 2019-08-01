@@ -9,34 +9,29 @@
 3. 사전 순 정렬.
 ------------------------------------------------------ */
 #include <iostream>
+#include <algorithm>
+#include <vector>
+
 using namespace std;
 
 bool compare(string a, string b);
 
 int main(){
     int n;
-    bool same;
+    string w;
 
     cin >> n;
-    string* words = new string[n];
-    for(int i = 0; i < n; i++)
-    {
-        cin >> words[i];
-        for(int j = 0; j < i; j++)
-        {
-            //i가 0일 땐 비교군이 없으니까 그냥 지나감
-            if(i == 0) break;
-            //앞에 있는 애들과 비교했들 때 같은 애가 있으면 해당 문자열을 지우고 반복문을 빠져나간다.
-            if(words[j].compare(words[i])==0){
-                words[i] = "";
-                break;
-            } 
-        }
+
+    vector<string> words;
+    for(int i = 0; i < n;i++){
+        cin >> w;
+        words.push_back(w);
     }
 
     //단어의 길이로 정렬
-    sort(words, words + n, compare);
-    for(int i = 0; i < n; i++)
+    sort(words.begin(), words.end(), compare);
+    words.erase(unique(words.begin(), words.end()), words.end());
+    for(int i = 0; i < words.size(); i++)
     {
         cout << words[i] << ' ';
     }
