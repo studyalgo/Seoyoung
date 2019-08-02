@@ -75,12 +75,12 @@ int main(){
 
 bool validate(int initP, int v){
     int i, j;
-    for(i = 2; i < n+1; i++){
-        for(j = 0; j < n; j++){
+    for(j = 2; j < n+1; j++){
+        for(i = 0; i < n; i++){
             //가정에 부합하는 값이 존재하면 다음 행을 검사하러.
-            if(marble[i][j] == location(i, initP, v)) break;
+            if(marble[i][j] == location(j, initP, v)) break;
             //행의 마지막값이 될 때까지 부합하는 값이 없으면 함수를 빠져나간다. 
-            if(j == n-1) return false;
+            if(i == n-1) return false;
         }
     }
     return true;
