@@ -39,17 +39,17 @@ int main(){
     }
 
     //marble 2차원 배열 입력.
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n+1; j++){
+    for(int j = 0; j < n+1; j++){
+        for(int i = 0; i < n; i++){
             cin >> marble[i][j];
         }
     }
 
-
+    //답을 가정하기. 초기 위치와, 속도를 가정해서 경우의 수 마다 유효한 가정인지 확인한다.
     for(int i = 0; i < n; i++){
-        initP = marble[0][i];
+        initP = marble[i][0];
         for(int j = 0; j < n; j++){
-            v = marble[1][j] - marble[0][i];
+            v = marble[j][1] - marble[i][0];
             if(validate(initP, v) == true){
                 ans.push_back(make_pair(initP, v));
                 break;
