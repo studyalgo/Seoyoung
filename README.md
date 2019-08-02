@@ -32,4 +32,4 @@
 - 욕심쟁이 판다(1937) : [문제](https://www.acmicpc.net/problem/1937) / [C++](./docs/2nd/problems/greedyPanda.cpp)
 - 좌표정렬하기(11650) : [문제](https://www.acmicpc.net/problem/11650) / [C++](./docs/2nd/problems/sortingCoord.cpp)
 - k번째(7469) : [문제](https://www.acmicpc.net/problem/7469) / [C++](./docs/2nd/problems/kNum.cpp)
-- 구슬 굴리기 : [문제]() / [C++]()
+- 구슬 굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/2nd/problems/rollingMarble.cpp)
