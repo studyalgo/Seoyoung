@@ -26,7 +26,7 @@
 ### 개념
 - [정렬2](./docs/2nd/cppSTL.md)
 ### 문제
-- 수정렬(10989) : [문제](https://www.acmicpc.net/problem/10989) / [C++]()
+- 수정렬하기3(10989) : [문제](https://www.acmicpc.net/problem/10989) / [C++]()
 - 단어정렬(1181) : [문제](https://www.acmicpc.net/problem/1181) / [C++](./docs/2nd/problems/sortingWords.cpp)
 - 나이순 정렬(10814) : [문제](https://www.acmicpc.net/problem/10814) / [C++](./docs/2nd/problems/ageOrderedSorting.cpp)
 - 욕심쟁이 판다(1937) : [문제](https://www.acmicpc.net/problem/1937) / [C++](./docs/2nd/problems/greedyPanda.cpp)
