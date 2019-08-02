@@ -3,6 +3,7 @@
 
 -------------------------------------------------------------------------*/
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -30,7 +31,7 @@ int main(){
 
 void Q(int i, int j, int k){
     int len = j - i + 1;
-    int sub[len];
+    int* sub = new int[len];
     for(int x = 0; x < len; x++){
         sub[x] = arr[x+i-1];
     }
