@@ -21,7 +21,6 @@ int location(int t, int initP, int v){
 bool validate(int initP, int v);
 
 int n;
-int* check; //짝을 찾은 구슬 표시할 배열
 int** marble;   // 사진상 구슬의 x좌표를 저장할 2차원 배열
 vector<pair<int, int> > ans;    //답을 저장할 배열
 
@@ -29,7 +28,6 @@ vector<pair<int, int> > ans;    //답을 저장할 배열
 int main(){
     cin >> n;
 
-    check = new int[n];
     marble = new int*[n];
     int initP;  //초기위치
     int v;  //속도
@@ -37,33 +35,28 @@ int main(){
 
     //check배열 초기화, marble 2차원 배열 생성
     for(int i = 0; i < n; i++){
-        check[i] = 0;
         marble[i] = new int[n+1];
     }
 
     //marble 2차원 배열 입력.
-    for(int i = 0; i < n+1; i++){
-        for(int j = 0; j < n; j++){
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n+1; j++){
             cin >> marble[i][j];
         }
     }
 
-    for(int j = 0; j < n; j++){
-        cout << marble[0][j] << ' ';
-    }
 
     for(int i = 0; i < n; i++){
         initP = marble[0][i];
         for(int j = 0; j < n; j++){
             v = marble[1][j] - marble[0][i];
-            validate(initP, v);
-            /*if(validate(initP, v) == true){
+            if(validate(initP, v) == true){
                 ans.push_back(make_pair(initP, v));
                 break;
-            }*/
+            }
         }
     }
-
+    
     sort(ans.begin(), ans.end());
 
     //답 출력
