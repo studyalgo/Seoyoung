@@ -31,7 +31,7 @@ int main(){
     sort(coord.begin(), coord.end(), compare);
     //출력하기
     for(int i = 0; i < n; i++){
-        cout << coord[i].first << ' ' << coord[i].second << endl;
+        cout << coord[i].first << ' ' << coord[i].second << '\n';
     }
     return 0;
 }
