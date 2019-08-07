@@ -33,3 +33,14 @@
 - 좌표정렬하기(11650) : [문제](https://www.acmicpc.net/problem/11650) / [C++](./docs/2nd/problems/sortingCoord.cpp)
 - k번째(7469) : [문제](https://www.acmicpc.net/problem/7469) / [C++](./docs/2nd/problems/kNum.cpp)
 - 구슬 굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/2nd/problems/rollingMarble.cpp)
+
+## 3주차
+### 개념
+- [스택/큐]
+### 문제
+- 더하기 2(10823) : [문제](https://www.acmicpc.net/problem/10823) /
+- 쇠막대기(10799) : [문제](https://www.acmicpc.net/problem/10799) /
+- 스택수열(1874) : [문제](https://www.acmicpc.net/problem/1874) /
+- 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) /
+- 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) /
+- 홍준이와 울타리(2905) : [문제](https://www.acmicpc.net/problem/2905) /
