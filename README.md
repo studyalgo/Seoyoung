@@ -36,7 +36,7 @@
 
 ## 3주차
 ### 개념
-- [스택/큐]
+- [스택/큐](./docs/3rd/stackNqueue.md)
 ### 문제
 - 더하기 2(10823) : [문제](https://www.acmicpc.net/problem/10823) /
 - 쇠막대기(10799) : [문제](https://www.acmicpc.net/problem/10799) /
