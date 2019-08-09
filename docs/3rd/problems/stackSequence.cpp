@@ -25,8 +25,7 @@ int main(){
         }
     }
 
-    for(int i = 0; i < n; i++){
-        popN = 0;
+    for(int i = 0; i < n-1; i++){
         //첫번째 수는 바로 출력
         if(i==0){
             for(int j = 0; j < arr[i]; j++){
@@ -46,6 +45,7 @@ int main(){
             for(int j = 0; j < next - cur - popN + 1; j++){
                 cout << '+' << '\n';
             }
+            popN = 0;
             cout << '-' << '\n';
             popN++;
         }
