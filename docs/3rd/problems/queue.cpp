@@ -34,7 +34,7 @@ int main(){
             emp = 0;
         }
         else if(cmd == "pop"){
-            if(sz == 0) cout << "-1";
+            if(sz == 0) cout << "-1" << '\n';
             else {
                 cout << queue[front]<< '\n';
                 queue[front] = 0;
@@ -46,19 +46,20 @@ int main(){
             cout << sz << '\n';
         }
         else if(cmd =="empty"){
-            if(sz == 0) cout << "-1" << '\n';
+            if(sz == 0) cout << "1" << '\n';
             else cout << "0"<< '\n';
         }
         else if(cmd =="front"){
-            if(sz == 0) cout << "-1";
+            if(sz == 0) cout << "-1" << '\n';
             else cout << queue[front]<< '\n';
         }
         else if(cmd =="back"){
-            if(sz == 0) cout << "-1";
+            if(sz == 0) cout << "-1" << '\n';
             else cout << queue[back-1] << '\n';
         }
         n--;
     }
 
+    delete queue;
     return 0;
 }
