@@ -40,7 +40,7 @@
 ### 문제
 - 더하기 2(10823) : [문제](https://www.acmicpc.net/problem/10823) /
 - 쇠막대기(10799) : [문제](https://www.acmicpc.net/problem/10799) /
-- 스택수열(1874) : [문제](https://www.acmicpc.net/problem/1874) /
-- 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) /
-- 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) /
+- 스택수열(1874) : [문제](https://www.acmicpc.net/problem/1874) / [C++](./docs/3rd/problems/stackSequence.cpp)
+- 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) / [C++](./docs/3rd/problems/queue.cpp)
+- 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) / [C++](./docs/3rd/problems/printerQueue.cpp)
 - 홍준이와 울타리(2905) : [문제](https://www.acmicpc.net/problem/2905) /
