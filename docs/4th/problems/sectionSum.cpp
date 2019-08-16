@@ -22,13 +22,13 @@ int main(){
     size = pow(2, height+1) -1;
 
     vector<long long> arr;
-    vector<long long> tree[size];
+    vector<long long> tree(size);
 
     for(int i = 0; i < n; i++){
         cin >> num;
         arr.push_back(num);
     }
-/*
+
     //세그먼트 트리 만들기
     init(arr, tree, 1, 0, n-1);
 
@@ -38,16 +38,15 @@ int main(){
             cin >> b >> c;
             diff = c - arr[b-1];
             arr[b-1] = c;
-            update(tree, 0, 0, n-1, b, diff);
+            update(tree, 0, 1, n, b, diff);
             m--;
         }
         else if(cmd == 2){
             cin >> b >> c;
-            sum(tree, 1, 0, n-1, b, c);
+            cout << sum(tree, 1, 0, n-1, b, c) << '\n';
             k--;
         }
     }
-*/
     return 0;
 }
 
