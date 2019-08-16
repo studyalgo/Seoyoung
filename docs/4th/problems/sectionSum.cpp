@@ -18,8 +18,8 @@ int main(){
     //입력받기
     cin >> n >> m >> k;
 
-    height = ceil(log(n));
-    size = pow(2, height+1) -1;
+    height = ceil(log2(n));
+    size = pow(2, height+1);
 
     vector<long long> arr;
     vector<long long> tree(size);
