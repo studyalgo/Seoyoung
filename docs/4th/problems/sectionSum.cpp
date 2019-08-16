@@ -11,15 +11,22 @@ long long sum(vector<long long> &tree, int node, int start, int end, int left, i
 int main(){
     int n, m, k;
     int cmd, b, c;
+    int height, size;
     int diff;
-    vector<long long> arr;
-    vector<long long> tree;
-    
+    long long num;
+
     //입력받기
     cin >> n >> m >> k;
 
+    height = ceil(log(n));
+    size = pow(2, height+1) -1;
+
+    vector<long long> arr;
+    vector<long long> tree[size];
+
     for(int i = 0; i < n; i++){
-        cin >> arr[i];
+        cin >> num;
+        arr.push_back(num);
     }
 /*
     //세그먼트 트리 만들기
