@@ -37,6 +37,7 @@ int main(){
     }
     return 0;
 }
+
 int init(vector<int> &a, vector<int> &tree, int node, int start, int end){
     int left, right;
     if(start == end){
@@ -49,7 +50,7 @@ int init(vector<int> &a, vector<int> &tree, int node, int start, int end){
 }
 
 int findMinimum(vector<int> tree, int node, int start, int end, int left, int right){
-    if(left > end || right < start) return INT_MAX;
+    if(left > end || right < start) return 1e9;
     if(left >= start && right <= end) return tree[node];
     left = findMinimum(tree, node*2, start, (start+end)/2, left, right);
     right = findMinimum(tree, node*2+1, (start+end)/2 + 1, end, left, right);
