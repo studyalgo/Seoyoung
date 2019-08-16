@@ -17,10 +17,11 @@ int main(){
     
     //입력받기
     cin >> n >> m >> k;
-    for(int i = 0; i < arr.size(); i++){
+
+    for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
-
+/*
     //세그먼트 트리 만들기
     init(arr, tree, 1, 0, n-1);
 
@@ -39,7 +40,7 @@ int main(){
             k--;
         }
     }
-
+*/
     return 0;
 }
 
