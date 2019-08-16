@@ -38,12 +38,12 @@ int main(){
             cin >> b >> c;
             diff = c - arr[b-1];
             arr[b-1] = c;
-            update(tree, 0, 1, n, b, diff);
+            update(tree, 1, 0, n-1, b-1, diff);
             m--;
         }
         else if(cmd == 2){
             cin >> b >> c;
-            cout << sum(tree, 1, 0, n-1, b, c) << '\n';
+            cout << sum(tree, 1, 0, n-1, b-1, c-1) << '\n';
             k--;
         }
     }
