@@ -58,4 +58,4 @@
 ### 개념
 - [펜윅트리(Fenwick Tree)](https://www.acmicpc.net/blog/view/21)
 ### 문제
-- 
+- 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) /
