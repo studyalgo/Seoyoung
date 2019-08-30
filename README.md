@@ -44,3 +44,18 @@
 - 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) / [C++](./docs/3rd/problems/queue.cpp)
 - 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) / [C++](./docs/3rd/problems/printerQueue.cpp)
 - 홍준이와 울타리(2905) : [문제](https://www.acmicpc.net/problem/2905) /
+## 4주차
+### 개념
+- [세그먼트 트리](https://www.acmicpc.net/blog/view/9)
+### 문제
+- 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) / [C++](./docs/4th/problems/sectionSum.cpp)
+- 최솟값(10868) : [문제](https://www.acmicpc.net/problem/10868) / [C++](./docs/4th/problems/minimumValue.cpp)
+- 최솟값과 최댓값(2357) : [문제](https://www.acmicpc.net/problem/2357) / 
+- 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565)
+## 5주차
+여름휴가!!
+## 6주차
+### 개념
+- [펜윅트리(Fenwick Tree)](https://www.acmicpc.net/blog/view/21)
+### 문제
+- 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) /
