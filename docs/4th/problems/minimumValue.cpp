@@ -5,7 +5,7 @@
 using namespace std;
 
 int init(vector<int> &a, vector<int> &tree, int node, int start, int end);
-int findMinimum(vector<int> tree, int node, int start, int end, int left, int right);
+int findMinimum(vector<int> &tree, int node, int start, int end, int left, int right);
 
 int main(){
     int n, m;
@@ -51,6 +51,7 @@ int init(vector<int> &a, vector<int> &tree, int node, int start, int end){
 
 int findMinimum(vector<int> &tree, int node, int start, int end, int left, int right){
     int l, r;
+    if(start == end) return tree[node];
     if(left > end || right < start) return 1e9;
     if(left >= start && right <= end){
         l = findMinimum(tree, node*2, start, (start+end)/2, left, right);
