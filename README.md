@@ -55,3 +55,7 @@
 ## 5주차
 여름휴가!!
 ## 6주차
+### 개념
+- [펜윅트리(Fenwick Tree)](https://www.acmicpc.net/blog/view/21)
+### 문제
+- 
