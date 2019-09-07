@@ -12,6 +12,7 @@ int main(){
     int h = ceil(log2(n));
     int size = (1 << (h+1));
 
+    //vector를 이용하기 위한 tmp, 배열과 트리.
     int tmp;
     vector<int> arr;
     vector<int> tree;
@@ -19,6 +20,12 @@ int main(){
     for(int i = 0; i < n; i++){ 
         cin >> tmp;
         arr.push_back(tmp);
+    }
+
+    while(m > 0)
+    {
+
+        m--;
     }
     return 0;
 }
