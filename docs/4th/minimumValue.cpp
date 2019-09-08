@@ -20,12 +20,11 @@ int main(){
     size = (1 << (height+1));
 
     //배열과 트리생성 및 초기화
-    vector<int> arr;
+    vector<int> arr(n);
     vector<int> tree(size);
 
     for(int i = 0; i < n; i++){
-        cin >> num;
-        arr.push_back(num);
+        cin >> arr[i];
     }
 
     init(arr, tree, 1, 0, n-1);
