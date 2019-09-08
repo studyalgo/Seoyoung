@@ -8,6 +8,8 @@ int init(vector<int> &a, vector<int> &tree, int node, int start, int end);
 int findMinimum(vector<int> &tree, int node, int start, int end, int left, int right);
 
 int main(){
+    ios_base::sync_with_stdio(false); cin.tie(nullptr);
+    
     int n, m;
     int height, size;
     int num;
