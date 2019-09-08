@@ -9,10 +9,9 @@ int findMinimum(vector<int> &tree, int node, int start, int end, int left, int r
 
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(nullptr);
-    
+
     int n, m;
     int height, size;
-    int num;
     int a, b;
 
     cin >> n >> m;
@@ -53,13 +52,11 @@ int init(vector<int> &a, vector<int> &tree, int node, int start, int end){
 int findMinimum(vector<int> &tree, int node, int start, int end, int left, int right){
     int l, r;
     if(left > end || right < start) return 1e9;
-    if(start == end) return tree[node];
-    if(left >= start && right <= end){
+    else if(left <= start && end <= right) return tree[node];
+    else{
         l = findMinimum(tree, node*2, start, (start+end)/2, left, right);
         r = findMinimum(tree, node*2+1, (start+end)/2 + 1, end, left, right);
         return l < r? l : r;
     }
-    l = findMinimum(tree, node*2, start, (start+end)/2, left, right);
-    r = findMinimum(tree, node*2+1, (start+end)/2 + 1, end, left, right);
-    return l < r? l : r;
+    
 }
