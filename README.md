@@ -50,7 +50,7 @@
 ### 문제
 - 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) / [C++](./docs/4th/sectionSum.cpp)
 - 최솟값(10868) : [문제](https://www.acmicpc.net/problem/10868) / [C++](./docs/4th/minimumValue.cpp)
-- 최솟값과 최댓값(2357) : [문제](https://www.acmicpc.net/problem/2357) / 
+- 최솟값과 최댓값(2357) : [문제](https://www.acmicpc.net/problem/2357) / [C++](./docs/4th/minmaxValue.cpp)
 - 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565)
 ## 5주차
 여름휴가!!
