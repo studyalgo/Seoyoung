@@ -63,3 +63,6 @@
 ## 7
 ### 개념
 - [LIS(Longest Increasing Subsequence)]
+
+### 문제
+- 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565) / [C++](./docs/7/electricWire.cpp)
