@@ -13,7 +13,7 @@
   - 위 생각을 어떻게 코드로 옮겼는지.
 - 깃허브로 코드를 관리하고 서로 피드백 해준다.
 - 모르는 것이 있거나 어려운 점은 메신저로 자유롭게 이야기한다.
-## 1주차
+## 1
 ### 개념
 - [정렬1](./docs/1st/Sorting.md)
 ### 문제
@@ -22,7 +22,7 @@
 - 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)/[C++](./docs/1st/problems/treasure.cpp)
 - 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)/[C++](./docs/1st/problems/sortInside.cpp)
 - 시리얼번호(1431) : [문제](https://www.acmicpc.net/problem/1431)
-## 2주차
+## 2
 ### 개념
 - [정렬2](./docs/2nd/cppSTL.md)
 ### 문제
@@ -34,7 +34,7 @@
 - k번째(7469) : [문제](https://www.acmicpc.net/problem/7469) / [C++](./docs/2nd/problems/kNum.cpp)
 - 구슬 굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/2nd/problems/rollingMarble.cpp)
 
-## 3주차
+## 3
 ### 개념
 - [스택/큐](./docs/3rd/stackNqueue.md)
 ### 문제
@@ -44,7 +44,7 @@
 - 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) / [C++](./docs/3rd/problems/queue.cpp)
 - 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) / [C++](./docs/3rd/problems/printerQueue.cpp)
 - 홍준이와 울타리(2905) : [문제](https://www.acmicpc.net/problem/2905) /
-## 4주차
+## 4
 ### 개념
 - [세그먼트 트리](https://www.acmicpc.net/blog/view/9)
 ### 문제
@@ -52,10 +52,14 @@
 - 최솟값(10868) : [문제](https://www.acmicpc.net/problem/10868) / [C++](./docs/4th/minimumValue.cpp)
 - 최솟값과 최댓값(2357) : [문제](https://www.acmicpc.net/problem/2357) / [C++](./docs/4th/minmaxValue.cpp)
 - 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565)
-## 5주차
+## 5
 여름휴가!!
-## 6주차
+## 6
 ### 개념
 - [펜윅트리(Fenwick Tree)](https://www.acmicpc.net/blog/view/21)
 ### 문제
 - 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) /
+
+## 7
+### 개념
+- [LIS(Longest Increasing Subsequence)]
