@@ -6,7 +6,6 @@
 using namespace std;
 
 int LIS(vector<int> &arr, int n);
-int lowerBound(vector<int> lis, int n);
 
 int LIS(vector<int> &arr, int n){
     vector<int> lis;
