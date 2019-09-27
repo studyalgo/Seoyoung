@@ -5,10 +5,10 @@
 
 using namespace std;
 
-int LIS(vector<int> arr, int n);
+int LIS(vector<int> &arr, int n);
 int lowerBound(vector<int> lis, int n);
 
-int LIS(vector<int> arr, int n){
+int LIS(vector<int> &arr, int n){
     vector<int> lis;
     lis.push_back(arr[0]);
     for(int i = 1; i < n; i++){
