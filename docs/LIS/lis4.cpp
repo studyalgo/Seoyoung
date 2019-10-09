@@ -8,12 +8,7 @@ int LIS(vector<int> &arr, vector<int> &lis, int n){
     lis.push_back(arr[0]);
     for(int i = 1; i < n; i++){
         if(lis[lis.size()-1] < arr[i]) lis.push_back(arr[i]);
-        else{
-            if(lower_bound(lis.begin(), lis.end(), arr[i]) - lis.begin() == (lis.size()-1)){
-                lis[lower_bound(lis.begin(), lis.end(), arr[i]) - lis.begin()] = arr[i];
-            }
-            else continue;
-        }
+        
     }
 
     return lis.size();
