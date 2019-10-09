@@ -22,7 +22,6 @@
 - 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)/[C++](./docs/sorting/treasure.cpp)
 - 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)/[C++](./docs/sorting/sortInside.cpp)
 - 시리얼번호(1431) : [문제](https://www.acmicpc.net/problem/1431)
---------------
 ### 개념
 - [정렬2](./docs/sorting/cppSTL.md)
 ### 문제
