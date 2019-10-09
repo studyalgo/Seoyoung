@@ -15,42 +15,42 @@
 - 모르는 것이 있거나 어려운 점은 메신저로 자유롭게 이야기한다.
 ## 1
 ### 개념
-- [정렬1](./docs/1st/Sorting.md)
+- [정렬1](./docs/sorting/Sorting.md)
 ### 문제
-- 좌표정렬하기2(11651) : [문제](https://www.acmicpc.net/problem/11651)/[C++](./docs/1st/problems/sortingCoord.cpp)
-- 구슬굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/2nd/problems/rollingMarble.cpp)
-- 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)/[C++](./docs/1st/problems/treasure.cpp)
-- 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)/[C++](./docs/1st/problems/sortInside.cpp)
+- 좌표정렬하기2(11651) : [문제](https://www.acmicpc.net/problem/11651)/[C++](./docs/sorting/sortingCoord.cpp)
+- 구슬굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/sorting/rollingMarble.cpp)
+- 보물(1026) : [문제](https://www.acmicpc.net/problem/1026)/[C++](./docs/sorting/treasure.cpp)
+- 소트인사이드(1427) : [문제](https://www.acmicpc.net/problem/1427)/[C++](./docs/sorting/sortInside.cpp)
 - 시리얼번호(1431) : [문제](https://www.acmicpc.net/problem/1431)
 ## 2
 ### 개념
-- [정렬2](./docs/2nd/cppSTL.md)
+- [정렬2](./docs/sorting/cppSTL.md)
 ### 문제
 - 수정렬하기3(10989) : [문제](https://www.acmicpc.net/problem/10989) / [C++]()
-- 단어정렬(1181) : [문제](https://www.acmicpc.net/problem/1181) / [C++](./docs/2nd/problems/sortingWords.cpp)
-- 나이순 정렬(10814) : [문제](https://www.acmicpc.net/problem/10814) / [C++](./docs/2nd/problems/ageOrderedSorting.cpp)
-- 욕심쟁이 판다(1937) : [문제](https://www.acmicpc.net/problem/1937) / [C++](./docs/2nd/problems/greedyPanda.cpp)
-- 좌표정렬하기(11650) : [문제](https://www.acmicpc.net/problem/11650) / [C++](./docs/2nd/problems/sortingCoord.cpp)
-- k번째(7469) : [문제](https://www.acmicpc.net/problem/7469) / [C++](./docs/2nd/problems/kNum.cpp)
-- 구슬 굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/2nd/problems/rollingMarble.cpp)
+- 단어정렬(1181) : [문제](https://www.acmicpc.net/problem/1181) / [C++](./docs/sorting/sortingWords.cpp)
+- 나이순 정렬(10814) : [문제](https://www.acmicpc.net/problem/10814) / [C++](./docs/sorting/ageOrderedSorting.cpp)
+- 욕심쟁이 판다(1937) : [문제](https://www.acmicpc.net/problem/1937) / [C++](./docs/sorting/greedyPanda.cpp)
+- 좌표정렬하기(11650) : [문제](https://www.acmicpc.net/problem/11650) / [C++](./docs/sorting/sortingCoord.cpp)
+- k번째(7469) : [문제](https://www.acmicpc.net/problem/7469) / [C++](./docs/sorting/kNum.cpp)
+- 구슬 굴리기(1728) : [문제](https://www.acmicpc.net/problem/1728) / [C++](./docs/sorting/rollingMarble.cpp)
 
 ## 3
 ### 개념
-- [스택/큐](./docs/3rd/stackNqueue.md)
+- [스택/큐](./docs/stack_queue/stackNqueue.md)
 ### 문제
 - 더하기 2(10823) : [문제](https://www.acmicpc.net/problem/10823) /
 - 쇠막대기(10799) : [문제](https://www.acmicpc.net/problem/10799) /
-- 스택수열(1874) : [문제](https://www.acmicpc.net/problem/1874) / [C++](./docs/3rd/problems/stackSequence.cpp)
-- 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) / [C++](./docs/3rd/problems/queue.cpp)
-- 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) / [C++](./docs/3rd/problems/printerQueue.cpp)
+- 스택수열(1874) : [문제](https://www.acmicpc.net/problem/1874) / [C++](./docs/stack_queue/stackSequence.cpp)
+- 큐(10845) : [문제](https://www.acmicpc.net/problem/10845) / [C++](./docs/stack_queue/queue.cpp)
+- 프린터큐(1966) : [문제](https://www.acmicpc.net/problem/1966) / [C++](./docs/stack_queue/printerQueue.cpp)
 - 홍준이와 울타리(2905) : [문제](https://www.acmicpc.net/problem/2905) /
 ## 4
 ### 개념
 - [세그먼트 트리](https://www.acmicpc.net/blog/view/9)
 ### 문제
-- 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) / [C++](./docs/4th/sectionSum.cpp)
-- 최솟값(10868) : [문제](https://www.acmicpc.net/problem/10868) / [C++](./docs/4th/minimumValue.cpp)
-- 최솟값과 최댓값(2357) : [문제](https://www.acmicpc.net/problem/2357) / [C++](./docs/4th/minmaxValue.cpp)
+- 구간합구하기(2042) : [문제](https://www.acmicpc.net/problem/2042) / [C++](./docs/segmentTree/sectionSum.cpp)
+- 최솟값(10868) : [문제](https://www.acmicpc.net/problem/10868) / [C++](./docs/segmentTree/minimumValue.cpp)
+- 최솟값과 최댓값(2357) : [문제](https://www.acmicpc.net/problem/2357) / [C++](./docs/segmentTree/minmaxValue.cpp)
 - 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565)
 ## 5
 여름휴가!!
@@ -65,6 +65,6 @@
 - [LIS(Longest Increasing Subsequence)](https://dyngina.tistory.com/16)
 
 ### 문제
-- 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565) / [C++](./docs/7/electricWire.cpp)
+- 전깃줄(2565) : [문제](https://www.acmicpc.net/problem/2565) / [C++](./docs/LIS/electricWire.cpp)
 - 가장 긴 증가하는 부분 수열(11053) : [문제](https://www.acmicpc.net/problem/11053) / [C++](./docs/LIS/lis1.cpp)
 
