@@ -6,10 +6,8 @@
 
 using namespace std;
 
-void findLCS(int i, int j, int** table, string s1, vector<char> lcs);
-
 int main(){
-    vector<char> lcs;
+    string lcs;
     //문자열 입력 받음
     string s1, s2;
     cin >> s1;
@@ -42,7 +40,15 @@ int main(){
         }
     }
 
-    findLCS(len2-1, len1-1, table, s1, lcs);
+    for(int i = len1-1, j = len2-1; i>0 && j>0;){
+        if(table[i][j] == table[i][j-1]) j--;
+        else if(table[i][j] == table[i-1][j]) i--;
+        else{
+            lcs = s1[i-1] + lcs;
+            i--;
+            j--;
+        }
+    }
 
     for (int i = lcs.size(); i != 0; i--) {
         cout << lcs[i] << " ";
@@ -56,15 +62,4 @@ int main(){
     delete [] table;
 
     return 0;
-}
-
-void findLCS(int i, int j, int** table, string s1, vector<char> lcs){
-    if(i==0 || j==0) return;
-    for(int m = j; m != 0; m--){
-        if(table[i][j] != table[i][j-1]){
-            lcs.push_back(s1[j]);
-            findLCS(i-1, j-1, table, s1, lcs);
-            break;
-        }
-    }
 }
