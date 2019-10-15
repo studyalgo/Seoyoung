@@ -27,7 +27,7 @@ int main(){
     }
 
     //테이블 채우기
-    for(int i = 0; i < len2; i++){
+    for(int i = 0; i < len1; i++){
         table[0][i] = 0;
     }
 
