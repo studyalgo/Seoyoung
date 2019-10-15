@@ -67,3 +67,6 @@
 - 가장 긴 증가하는 부분 수열(11053) : [문제](https://www.acmicpc.net/problem/11053) / [C++](./docs/LIS/lis1.cpp)
 - 가장 긴 증가하는 부분 수열4(14002) : [문제](https://www.acmicpc.net/problem/14002) /
 
+## LCS(Longest Common Subsequence)
+### 개ㄴ
+### ㅁ
