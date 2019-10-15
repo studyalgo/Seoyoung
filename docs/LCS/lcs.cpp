@@ -47,6 +47,11 @@ int main(){
     }
 
     //LCS출력
-    cout << table[len1-1][len2-1] << '\n';
-    
+    cout << table[len2-1][len1-1] << '\n';
+
+    for(int i = 0; i < len2; i++){
+        delete [] table[i];
+    }
+    delete [] table;
+    return 0;
 }
