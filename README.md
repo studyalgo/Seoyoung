@@ -7,7 +7,10 @@
 ## 학습방법
 - 각자 개념학습과 문제풀이를 한다.
   - 개념학습: [유튜브/동빈나 알고리즘 강의](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)
-  - 문제: [백준 알고리즘](https://www.acmicpc.net)
+  - 문제
+    - [백준 알고리즘](https://www.acmicpc.net)
+    - [programmers](https://programmers.co.kr)
+    - [leet code](https://leetcode.com)
 - 일주일에 한 번 만나서 코드리뷰를 한다.
   - 문제를 푼 아이디어와 논리.
   - 위 생각을 어떻게 코드로 옮겼는지.
