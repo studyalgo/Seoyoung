@@ -68,5 +68,8 @@
 - 가장 긴 증가하는 부분 수열4(14002) : [문제](https://www.acmicpc.net/problem/14002) /
 
 ## LCS(Longest Common Subsequence)
-### 개ㄴ
-### ㅁ
+### 개념
+### 문제
+- LCS(9251) : [문제](https://www.acmicpc.net/problem/9251) / 
+
+### 개념
