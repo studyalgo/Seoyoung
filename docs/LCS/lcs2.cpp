@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void findLCS(int i, int j);
+void findLCS(int i, int j, int** table, string s1, vector<char> lcs);
 
 int main(){
     vector<char> lcs;
@@ -42,11 +42,13 @@ int main(){
         }
     }
 
-    findLCS(len2-1, len1-1);
+    findLCS(len2-1, len1-1, table, s1, lcs);
 
-    for (auto l = rbegin(lcs); l != rend(lcs); ++l) {
-        cout << *l << " ";
+    for (int i = lcs.size(); i != 0; i--) {
+        cout << lcs[i] << " ";
     }
+    cout << '\n';
+
     //메모리 해제
     for(int i = 0; i < len2; i++){
         delete [] table[i];
@@ -56,12 +58,12 @@ int main(){
     return 0;
 }
 
-void findLCS(int i, int j){
+void findLCS(int i, int j, int** table, string s1, vector<char> lcs){
     if(i==0 || j==0) return;
     for(int m = j; m != 0; m--){
         if(table[i][j] != table[i][j-1]){
             lcs.push_back(s1[j]);
-            findLCS(i-1, j-1);
+            findLCS(i-1, j-1, table, s1, lcs);
             break;
         }
     }
