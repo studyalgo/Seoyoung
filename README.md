@@ -70,6 +70,4 @@
 ## LCS(Longest Common Subsequence)
 ### 개념
 ### 문제
-- LCS(9251) : [문제](https://www.acmicpc.net/problem/9251) / 
-
-### 개념
+- LCS(9251) : [문제](https://www.acmicpc.net/problem/9251) / [C++](docs/LCS/lcs.cpp)
