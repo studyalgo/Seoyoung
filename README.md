@@ -72,3 +72,4 @@
 - [LCS](https://twinw.tistory.com/126)
 ### 문제
 - LCS(9251) : [문제](https://www.acmicpc.net/problem/9251) / [C++](docs/LCS/lcs.cpp)
+- LCS2(9252) : [문제](https://www.acmicpc.net/problem/9252)
