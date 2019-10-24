@@ -31,29 +31,28 @@ int main(){
         table[0][i] = 0;
     }
 
-    for(int i = 0; i < len2; i++){
+    for(int i = 1; i < len2; i++){
+        table[i][0] = 0;
         for(int j = 1; j < len1; j++){
-            if(s1[i]==s2[j]) table[i][j] = table[i-1][j-1] + 1;
+            if(s1[j]==s2[i]) table[i][j] = table[i-1][j-1] + 1;
             else{
                 table[i][j] = max(table[i-1][j], table[i][j-1]);
             }
         }
     }
 
-    for(int i = len1-1, j = len2-1; i>0 && j>0;){
+    for(int i = len2-1, j = len1-1; i>0 && j>0;){
         if(table[i][j] == table[i][j-1]) j--;
         else if(table[i][j] == table[i-1][j]) i--;
         else{
-            lcs = s1[i-1] + lcs;
+            lcs = s1[j] + lcs;
             i--;
             j--;
         }
     }
 
-    for (int i = lcs.size(); i != 0; i--) {
-        cout << lcs[i] << " ";
-    }
-    cout << '\n';
+    cout << table[len2-1][len1-1] << '\n';
+    cout << lcs << '\n';
 
     //메모리 해제
     for(int i = 0; i < len2; i++){
