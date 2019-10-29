@@ -35,6 +35,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     queue<int> truckOnBridge; // 다리위에 있는 트럭을 저장할 큐, 트럭의 인덱스 값을 저장.
     vector<int> time(0, truck_weights.size());  // 각 트럭이 다리위에 머무른 시간을 저장할 벡터.
     
+    //i는 트럭 인덱스. 다리에 올라가려는 트럭을 가리킴. 트럭이 다리에 올라가면 i++해줌
     for(int i = 0; i < truck_weights.size();){
         /*
         //트럭한대의 무게가 다리가 견딜 수 있는 무게보다 큰 경우.
