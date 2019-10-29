@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int sumWeight(queue<int> trucks, vector<int> truck_weights);
+int sumWeight(queue<int> truckOnBridge, vector<int> truck_weights);
 int solution(int bridge_length, int weight, vector<int> truck_weights);
 
 int main(){
@@ -17,21 +17,23 @@ int main(){
     //변수 입력받기
     cin >> n >> bridge_length >> weight;
 
-    vector<int> truck_weight(n);//트럭의 무게를 저장할 벡터
+    vector<int> truck_weights(n);//트럭의 무게를 저장할 벡터
 
     //무게 입력받기
     for(int i = 0; i < n; i++){
-        cin >> truck_weight[i];
+        cin >> truck_weights[i];
     }
+
+    cout << solution(bridge_length, weight, truck_weights) << '\n';
 
     return 0;
 }
 
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
-    int answer = 0;
-    int sum_weight = 0;
-    queue<int> truckOnBridge;
-    vector<int> time(0, truck_weights.size());
+    int answer = 0; //트럭이 다리를 건너는데 걸리는 시간을 저장할 변수
+    int sum_weight = 0; //다리 위에 있는 트럭들의 무게의 합
+    queue<int> truckOnBridge; // 다리위에 있는 트럭을 저장할 큐, 트럭의 인덱스 값을 저장.
+    vector<int> time(0, truck_weights.size());  // 각 트럭이 다리위에 머무른 시간을 저장할 벡터.
     
     for(int i = 0; i < truck_weights.size();){
         /*
@@ -50,10 +52,10 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
             continue;
         }
         //제일 앞에 있는 트럭이 다리를 다 건너면 큐에서 삭제
-        if(truckOnBridge.front() > bridge_length){
+        if(time[truckOnBridge.front()] > bridge_length){
             truckOnBridge.pop();
         }
-        // 무게제한 때문에 다리 위에 올라가지 못하는 경우
+        // 무게제한 때문에 다리 위에 올라가지 못하는 경우(다리 위에 있는 트럭의 무게의 합 + 대기 중인 트럭의)
         // 다리 위 트럭의 위치(시간)만 1씩 올린다.
         if(sumWeight(truckOnBridge, truck_weights)+truck_weights[i]>weight)
         {
@@ -63,6 +65,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
             answer++;
             continue;
         }
+        //다음 트럭이 다리 위에 올라감
         else{
             truckOnBridge.push(i);
             for(int j = 0; j <= i; j++){
@@ -75,11 +78,11 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     return answer;
 }
 
-int sumWeight(queue<int> trucks, vector<int> truck_weights){
+int sumWeight(queue<int> truckOnBridge, vector<int> truck_weights){
     int sum = 0;
-    while(!trucks.empty()){
-        sum += truck_weights.at(trucks.front());
-        trucks.pop();
+    while(!truckOnBridge.empty()){
+        sum += truck_weights.at(truckOnBridge.front());
+        truckOnBridge.pop();
     }
     return sum;
 }
