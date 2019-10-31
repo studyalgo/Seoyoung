@@ -36,8 +36,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     vector<int> time(truck_weights.size(), 0);  // 각 트럭이 다리위에 머무른 시간을 저장할 벡터.
     
     //i는 트럭 인덱스. 다리에 올라가려는 트럭을 가리킴. 트럭이 다리에 올라가면 i++해줌
-    for(int i = 0; i < truck_weights.size();){
-        answer++;
+    for(int i = 0; i < truck_weights.size() || !truckOnBridge.empty();){
         /*
         //트럭한대의 무게가 다리가 견딜 수 있는 무게보다 큰 경우.
         if(truck_weights[i] > weight){
@@ -56,10 +55,17 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
         if(time[truckOnBridge.front()] > bridge_length){
             truckOnBridge.pop();
         }
-        // 무게제한 때문에 다리 위에 올라가지 못하는 경우(다리 위에 있는 트럭의 무게의 합 + 대기 중인 트럭의)
+        // 무게제한 때문에 다리 위에 올라가지 못하는 경우(다리 위에 있는 트럭의 무게의 합 + 대기 중인 트럭의 무게 > 다리가 견딜 수 있는 무게)
         // 다리 위 트럭의 위치(시간)만 1씩 올린다.
-        if(sumWeight(truckOnBridge, truck_weights)+truck_weights[i]>weight)
+        if(i < truck_weights.size() && sumWeight(truckOnBridge, truck_weights)+truck_weights[i]>weight)
         {
+            for(int j = 0; j < i; j++){
+                time[j]++;
+            }
+            continue;
+        }
+        //마지막 트럭의 경우, 다리 위에 올라가려고 대기중인 트럭(truck_weights[i])이 존재하지 않으므로 그냥 다리위에 있는 트럭만 조사한다.
+        else if(i >= truck_weights.size()){
             for(int j = 0; j < i; j++){
                 time[j]++;
             }
@@ -73,10 +79,11 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
             }
             i++;
         }
+        answer++;
     }
     return answer;
 }
-
+    
 int sumWeight(queue<int> truckOnBridge, vector<int> truck_weights){
     int sum = 0;
     while(!truckOnBridge.empty()){
