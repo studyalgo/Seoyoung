@@ -48,7 +48,7 @@
 - 홍준이와 울타리(2905) : [문제](https://www.acmicpc.net/problem/2905) /
 - 다리를 지나는 트럭(42583) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42583) / [C++](./docs/stack_queue/truckCrossingBridge.cpp)
 - 기능 개발(42586) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42586) / [C++](./docs/stack_queue/developingFunction.cpp)
-- 주식 가격(42584) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42584) / [C++]((./docs/stack_queue/stockoption.cpp)
+- 주식 가격(42584) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42584) / [C++](./docs/stack_queue/stockoption.cpp)
 ## Segment Tree
 ### 개념
 - [세그먼트 트리](https://www.acmicpc.net/blog/view/9)
