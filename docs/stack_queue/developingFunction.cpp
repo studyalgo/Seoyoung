@@ -48,7 +48,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds){
         //배포가능하면
         if(progresses[idx] >= 100){
             // 뒤에 같이 배포할 수 있는 기능이 체크하고 있으면 개수세기
-            while(progresses[idx]>= 100){
+            while(idx < progresses.size() && progresses[idx]>= 100){
                 num++;
                 idx++;
             }
