@@ -1,6 +1,7 @@
 # Algorithm 스터디
 ## 멤버
-[baesy0](https://github.com/studyalgo/Seoyoung), [jiyoungjj](https://github.com/studyalgo/jiyoungjj), [highcleaner](https://github.com/studyalgo/highcleaner), [ys9617](https://github.com/studyalgo/ys9617)
+- [baesy0](https://github.com/studyalgo/Seoyoung)
+- [ys9617](https://github.com/studyalgo/ys9617)
 ## 사용언어
 - 공통: C++
 - 개인: GO, Python
