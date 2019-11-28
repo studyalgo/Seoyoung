@@ -63,6 +63,7 @@
 - [x] 기능 개발(42586) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42586) / [C++](./docs/stack_queue/developingFunction.cpp)
 - [x] 주식 가격(42584) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42584) / [C++](./docs/stack_queue/stockoption.cpp)
 - [ ] 예산(43237) : [문제](https://programmers.co.kr/learn/courses/30/lessons/43237) / [C++](./docs/programmers/budget.cpp)
+- [ ] 입국심사(43238) : [문제](https://programmers.co.kr/learn/courses/30/lessons/43238) / [C++](./docs/programmers/43238.cpp)
 
 
 
