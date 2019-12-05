@@ -2,6 +2,7 @@
 ## 멤버
 - [baesy0](https://github.com/studyalgo/Seoyoung)
 - [ys9617](https://github.com/studyalgo/ys9617)
+- [jeongeon](https://github.com/studyalgo/jeongeon)
 ## 사용언어
 - 공통: C++
 - 개인: GO, Python
@@ -64,7 +65,8 @@
 - [x] 주식 가격(42584) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42584) / [C++](./docs/stack_queue/stockoption.cpp)
 - [ ] 예산(43237) : [문제](https://programmers.co.kr/learn/courses/30/lessons/43237) / [C++](./docs/programmers/budget.cpp)
 - [ ] 입국심사(43238) : [문제](https://programmers.co.kr/learn/courses/30/lessons/43238) / [C++](./docs/programmers/43238.cpp)
-
+- [ ] 위장(42578) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42578)
+- [ ] 베스트엘범(42579) : [문제](https://programmers.co.kr/learn/courses/30/lessons/42579)
 
 
 
